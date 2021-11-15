@@ -57,15 +57,15 @@ function execute(a, cb){
                                                                  setTimeout(function(){
                                                                     result = "Happy BirthDay...!";
                                                                     cb(result);
-                                                                }, 10000)
-                                                          }, 9000)
-                                                }, 8000)
-                                      }, 7000)
-                              }, 6000)
-                          }, 5000)
-                       }, 4000)
-                  }, 3000)
-            }, 2000)
+                                                                }, 1000)
+                                                          }, 1000)
+                                                }, 1000)
+                                      }, 1000)
+                              }, 1000)
+                          }, 1000)
+                       }, 1000)
+                  }, 1000)
+            }, 1000)
        }, 1000)
 }
 execute(10, function(resultData){
